@@ -1,8 +1,16 @@
 h1. Sinatra Heroku Cedar Boilerplate
 
-p. The bare minimum for a sinatra app on cedar, running thin, and using bundler.
+h2. Minimum sinatra app for heroku cedar. 
 
-h2. Putting it up on Heroku
+h3. Including:
+
+* Haml
+
+* jQuery
+
+* Google Analytics 
+
+* Putting it up on Heroku
 
 <pre>
   $ git clone git://github.com/lampr/Sinatra-heroku-cedar-boilerplate.git
@@ -34,5 +42,3 @@ h2. Create & Link heroku app after locally dev
   $ git push heroku master
 </pre>
 
-
-Navigate to localhost:5000 | 5100
